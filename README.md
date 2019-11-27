@@ -18,7 +18,7 @@
 
   Schema.plugin(plugin);
   
-  Const Model = mongoose.model('foo', Schema);
+  const Model = mongoose.model('foo', Schema);
   const query = Model.searchBuilder('bar');
 
   // then, use the query however you like.
