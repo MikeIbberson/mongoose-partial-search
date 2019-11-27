@@ -16,4 +16,4 @@ jobs:
       run: |
         yarn install
         yarn lint
-        yearn test
+        yarn test
